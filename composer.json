@@ -1,0 +1,28 @@
+{
+    "name": "bmxmale/magento2-services",
+    "description": "Services for developers",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mateusz Lerczak",
+            "email": "mateusz@lerczak.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "version": "0.1",
+    "require": {
+        "php": ">=8.1.0",
+        "magento/framework": ">=103.0.5",
+        "magento/module-catalog": ">=104.0.5",
+        "magento/module-eav": ">=102.1.5"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bmxmale\\Services\\": ""
+        }
+    }
+}
